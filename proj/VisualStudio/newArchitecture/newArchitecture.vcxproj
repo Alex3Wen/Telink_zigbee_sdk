@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\proj_lib\pm_5320.c" />
+    <ClCompile Include="..\..\..\proj_lib\pm_5328.c" />
+    <ClCompile Include="..\..\..\rf\mac_host.c" />
+    <ClCompile Include="..\..\..\rf\rf.c" />
+    <ClCompile Include="..\..\..\vendor\common\led_cfg.c" />
+    <ClCompile Include="..\..\..\vendor\common\main.c" />
+    <ClCompile Include="..\..\..\vendor\common\TH_api\TH_api.c" />
+    <ClCompile Include="..\..\..\vendor\haApp\haApp.c" />
+    <ClCompile Include="..\..\..\vendor\ha_gateway\gwCmd.c" />
+    <ClCompile Include="..\..\..\vendor\ha_gateway\haApp.c" />
+    <ClCompile Include="..\..\..\vendor\ha_gateway\nodeMgmt.c" />
+    <ClCompile Include="..\..\..\vendor\otaSample\otaSampleApp.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_bind.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_commands.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_dups.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_group.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_main.c" />
+    <ClCompile Include="..\..\..\zboss\aps\aps_nwk_confirm.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_address.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_bufpool.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_bufpool_init.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_debug.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_ib.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_init.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_random.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_scheduler.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_scheduler_init.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_time.c" />
+    <ClCompile Include="..\..\..\zboss\common\zb_trace.c" />
+    <ClCompile Include="..\..\..\zboss\ha\ha.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_associate.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_common.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_associate.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_coordinator.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_data.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_data.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_disturber.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_fcs.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_routines.c" />
+    <ClCompile Include="..\..\..\zboss\mac\mac_scan.c" />
+    <ClCompile Include="..\..\..\zboss\mac\zb_ns3.c" />
+    <ClCompile Include="..\..\..\zboss\mac\zb_tc32.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_address_assign.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_formation.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_join.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_mesh_routing.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_permit_join.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_route_discovery.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_tree_routing.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_discovery.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_formation.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_join.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_main.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_neighbor.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_nlme.c" />
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_panid_conflict.c" />
+    <ClCompile Include="..\..\..\zboss\osif\zb_time_5320.c" />
+    <ClCompile Include="..\..\..\zboss\secur\apsme_secur.c" />
+    <ClCompile Include="..\..\..\zboss\secur\aps_secur.c" />
+    <ClCompile Include="..\..\..\zboss\secur\mac_secur.c" />
+    <ClCompile Include="..\..\..\zboss\secur\nwk_secur.c" />
+    <ClCompile Include="..\..\..\zboss\secur\secur_ccm.c" />
+    <ClCompile Include="..\..\..\zboss\secur\zdo_secur.c" />
+    <ClCompile Include="..\..\..\zboss\zbapi\zb_api.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_group.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_identify.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_level.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_onoff.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_power.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_scene.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\measument_sensing\zcl_illuminance_measurement.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\security_safety\zcl_ias_zone.c" />
+    <ClCompile Include="..\..\..\zboss\zcl\zcl.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\af_descriptor.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\af_rx.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\test_profile.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_app.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_bind_manage.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_channel_manager.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_common.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_disc_cli.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_disc_srv.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_nwk_manage_cli.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_nwk_manage_srv.c" />
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_rx.c" />
+    <ClCompile Include="..\..\app\device_app.c" />
+    <ClCompile Include="..\..\app\pairing.c" />
+    <ClCompile Include="..\..\app\usbaud.c" />
+    <ClCompile Include="..\..\app\usbkb.c" />
+    <ClCompile Include="..\..\app\usbmouse.c" />
+    <ClCompile Include="..\..\common\bufm.c" />
+    <ClCompile Include="..\..\common\compatibility.c" />
+    <ClCompile Include="..\..\common\list.c" />
+    <ClCompile Include="..\..\common\mempool.c" />
+    <ClCompile Include="..\..\common\mmem.c" />
+    <ClCompile Include="..\..\common\printf.c" />
+    <ClCompile Include="..\..\common\priority_queue.c" />
+    <ClCompile Include="..\..\common\qsort.c" />
+    <ClCompile Include="..\..\common\string.c" />
+    <ClCompile Include="..\..\drivers\adc.c" />
+    <ClCompile Include="..\..\drivers\audio.c" />
+    <ClCompile Include="..\..\drivers\dfifo.c" />
+    <ClCompile Include="..\..\drivers\ethernet.c" />
+    <ClCompile Include="..\..\drivers\eth_hw.c" />
+    <ClCompile Include="..\..\drivers\flash.c" />
+    <ClCompile Include="..\..\drivers\i2c.c" />
+    <ClCompile Include="..\..\drivers\id.c" />
+    <ClCompile Include="..\..\drivers\ip_adapt.c" />
+    <ClCompile Include="..\..\drivers\ir.c" />
+    <ClCompile Include="..\..\drivers\keyboard.c" />
+    <ClCompile Include="..\..\drivers\mic.c" />
+    <ClCompile Include="..\..\drivers\mouse.c" />
+    <ClCompile Include="..\..\drivers\pwm_gpioSim.c" />
+    <ClCompile Include="..\..\drivers\sbc.c" />
+    <ClCompile Include="..\..\drivers\somatic_sensor.c" />
+    <ClCompile Include="..\..\drivers\spi.c" />
+    <ClCompile Include="..\..\drivers\syshw.c" />
+    <ClCompile Include="..\..\drivers\usb.c" />
+    <ClCompile Include="..\..\drivers\usbdesc.c" />
+    <ClCompile Include="..\..\drivers\usbhw.c" />
+    <ClCompile Include="..\..\mcu\analog.c" />
+    <ClCompile Include="..\..\mcu\anareg.c" />
+    <ClCompile Include="..\..\mcu\audhw.c" />
+    <ClCompile Include="..\..\mcu\clock.c" />
+    <ClCompile Include="..\..\mcu\cpu.c" />
+    <ClCompile Include="..\..\mcu\otp.c" />
+    <ClCompile Include="..\..\mcu\putchar.c" />
+    <ClCompile Include="..\..\mcu\random.c" />
+    <ClCompile Include="..\..\mcu\register.c" />
+    <ClCompile Include="..\..\mcu\swire.c" />
+    <ClCompile Include="..\..\os\ev.c" />
+    <ClCompile Include="..\..\os\irq_handler.c" />
+    <ClCompile Include="..\..\os\sys.c" />
+    <ClCompile Include="..\..\os\timer.c" />
+    <ClCompile Include="..\..\simu\aes.c" />
+    <ClCompile Include="..\..\simu\aes\aescrypt.c" />
+    <ClCompile Include="..\..\simu\aes\aeskey.c" />
+    <ClCompile Include="..\..\simu\aes\aestab.c" />
+    <ClCompile Include="..\..\simu\aes\cbc.c" />
+    <ClCompile Include="..\..\simu\aes\ccm.c" />
+    <ClCompile Include="..\..\simu\aes\ctr.c" />
+    <ClCompile Include="..\..\simu\aes\ecb.c" />
+    <ClCompile Include="..\..\simu\aes\mmo.c" />
+    <ClCompile Include="..\..\simu\crc_sw.c" />
+    <ClCompile Include="..\..\simu\eth_simu.c" />
+    <ClCompile Include="..\..\simu\keyboard_simu.c" />
+    <ClCompile Include="..\..\simu\mouse_simu.c" />
+    <ClCompile Include="..\..\simu\rega_simu.c" />
+    <ClCompile Include="..\..\simu\reg_simu.c" />
+    <ClCompile Include="..\..\simu\socket_api.c" />
+    <ClCompile Include="..\..\simu\socket_test.c" />
+    <ClCompile Include="..\..\simu\uart_simu.c" />
+    <ClCompile Include="..\..\unit_test\ut.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\proj_lib\airmouse.h" />
+    <ClInclude Include="..\..\..\proj_lib\pm.h" />
+    <ClInclude Include="..\..\..\rf\mac_host.h" />
+    <ClInclude Include="..\..\..\rf\rf_api.h" />
+    <ClInclude Include="..\..\..\vendor\common\default_config.h" />
+    <ClInclude Include="..\..\..\vendor\common\keyboard_cfg.h" />
+    <ClInclude Include="..\..\..\vendor\common\keycode_custom.h" />
+    <ClInclude Include="..\..\..\vendor\common\led_cfg.h" />
+    <ClInclude Include="..\..\..\vendor\common\TH_api\TH_api.h" />
+    <ClInclude Include="..\..\..\vendor\common\user_config.h" />
+    <ClInclude Include="..\..\..\vendor\haApp\app_config.h" />
+    <ClInclude Include="..\..\..\vendor\haApp\haApp.h" />
+    <ClInclude Include="..\..\..\vendor\ha_gateway\app_config.h" />
+    <ClInclude Include="..\..\..\vendor\ha_gateway\gwCmd.h" />
+    <ClInclude Include="..\..\..\vendor\ha_gateway\haApp.h" />
+    <ClInclude Include="..\..\..\vendor\ha_gateway\nodeMgmt.h" />
+    <ClInclude Include="..\..\..\vendor\otaSample\app_config.h" />
+    <ClInclude Include="..\..\..\vendor\otaSample\otaSampleApp.h" />
+    <ClInclude Include="..\..\..\zboss\aps\aps_internal.h" />
+    <ClInclude Include="..\..\..\zboss\ha\ha.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_address.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_addr_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_af_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_aps.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_aps_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_bufpool.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_bufpool_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_common.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_config.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_debug.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_doc_api.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_doc_int.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_errors.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_g_context.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_hash.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_list_macros.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_mac.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_state.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_transport.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_magic_macros.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_ns3.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_neighbor.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_nib.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_pooled_list.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_ringbuffer.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_scheduler.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_secur.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_secur_api.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_tc32.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_test_profile.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_time.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_trace.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_transport_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_transport_tc32.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_types.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_zcl.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_zcl_globals.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_zdo.h" />
+    <ClInclude Include="..\..\..\zboss\include\zb_zdo_globals.h" />
+    <ClInclude Include="..\..\..\zboss\mac\mac_internal.h" />
+    <ClInclude Include="..\..\..\zboss\nwk\nwk_internal.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_1.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_2.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_3.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_4.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_5.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_6.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_7.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_8.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_9.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_a.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_common.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif_tc32.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif_unix.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_serial.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_spi.h" />
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_time.h" />
+    <ClInclude Include="..\..\..\zboss\zbapi\zb_api.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_group.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_identify.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_level.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_onoff.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_power.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_scene.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\measument_sensing\zcl_illuminance_measurement.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\security_safety\zcl_ias_zone.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\zcl.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_config.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_const.h" />
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_include.h" />
+    <ClInclude Include="..\..\..\zboss\zdo\zdo_common.h" />
+    <ClInclude Include="..\..\app\device_app.h" />
+    <ClInclude Include="..\..\app\pairing.h" />
+    <ClInclude Include="..\..\app\usbaud.h" />
+    <ClInclude Include="..\..\app\usbkb.h" />
+    <ClInclude Include="..\..\app\usbmouse.h" />
+    <ClInclude Include="..\..\common\assert.h" />
+    <ClInclude Include="..\..\common\bit.h" />
+    <ClInclude Include="..\..\common\bufm.h" />
+    <ClInclude Include="..\..\common\compatibility.h" />
+    <ClInclude Include="..\..\common\error.h" />
+    <ClInclude Include="..\..\common\list.h" />
+    <ClInclude Include="..\..\common\mempool.h" />
+    <ClInclude Include="..\..\common\mmem.h" />
+    <ClInclude Include="..\..\common\printf.h" />
+    <ClInclude Include="..\..\common\priority_queue.h" />
+    <ClInclude Include="..\..\common\ringbuffer.h" />
+    <ClInclude Include="..\..\common\static_assert.h" />
+    <ClInclude Include="..\..\common\string.h" />
+    <ClInclude Include="..\..\common\types.h" />
+    <ClInclude Include="..\..\common\utility.h" />
+    <ClInclude Include="..\..\config\default_config.h" />
+    <ClInclude Include="..\..\config\user_config.h" />
+    <ClInclude Include="..\..\config\user_config_common.h" />
+    <ClInclude Include="..\..\config\user_config_dongle.h" />
+    <ClInclude Include="..\..\config\user_config_hisense.h" />
+    <ClInclude Include="..\..\config\user_config_remote_changhong.h" />
+    <ClInclude Include="..\..\drivers\adc.h" />
+    <ClInclude Include="..\..\drivers\audio.h" />
+    <ClInclude Include="..\..\drivers\dfifo.h" />
+    <ClInclude Include="..\..\drivers\ethernet.h" />
+    <ClInclude Include="..\..\drivers\eth_hw.h" />
+    <ClInclude Include="..\..\drivers\eth_hw_i.h" />
+    <ClInclude Include="..\..\drivers\flash.h" />
+    <ClInclude Include="..\..\drivers\i2c.h" />
+    <ClInclude Include="..\..\drivers\id.h" />
+    <ClInclude Include="..\..\drivers\ip_adapt.h" />
+    <ClInclude Include="..\..\drivers\ip_adapt_i.h" />
+    <ClInclude Include="..\..\drivers\keyboard.h" />
+    <ClInclude Include="..\..\drivers\led.h" />
+    <ClInclude Include="..\..\drivers\mouse.h" />
+    <ClInclude Include="..\..\drivers\pwm_gpioSim.h" />
+    <ClInclude Include="..\..\drivers\sbc.h" />
+    <ClInclude Include="..\..\drivers\somatic_sensor.h" />
+    <ClInclude Include="..\..\drivers\spi.h" />
+    <ClInclude Include="..\..\drivers\spi_i.h" />
+    <ClInclude Include="..\..\drivers\syshw.h" />
+    <ClInclude Include="..\..\drivers\usb.h" />
+    <ClInclude Include="..\..\drivers\usbdesc.h" />
+    <ClInclude Include="..\..\drivers\usbhw.h" />
+    <ClInclude Include="..\..\drivers\usbhw_i.h" />
+    <ClInclude Include="..\..\drivers\usbkeycode.h" />
+    <ClInclude Include="..\..\mcu\analog.h" />
+    <ClInclude Include="..\..\mcu\anareg.h" />
+    <ClInclude Include="..\..\mcu\anareg_i.h" />
+    <ClInclude Include="..\..\mcu\audhw.h" />
+    <ClInclude Include="..\..\mcu\clock.h" />
+    <ClInclude Include="..\..\mcu\clock_i.h" />
+    <ClInclude Include="..\..\mcu\compiler.h" />
+    <ClInclude Include="..\..\mcu\config.h" />
+    <ClInclude Include="..\..\mcu\cpu.h" />
+    <ClInclude Include="..\..\mcu\dma.h" />
+    <ClInclude Include="..\..\mcu\gpio.h" />
+    <ClInclude Include="..\..\mcu\irq.h" />
+    <ClInclude Include="..\..\mcu\irq_i.h" />
+    <ClInclude Include="..\..\mcu\otp.h" />
+    <ClInclude Include="..\..\mcu\pin.h" />
+    <ClInclude Include="..\..\mcu\putchar.h" />
+    <ClInclude Include="..\..\mcu\random.h" />
+    <ClInclude Include="..\..\mcu\register.h" />
+    <ClInclude Include="..\..\mcu\swire.h" />
+    <ClInclude Include="..\..\mcu\watchdog.h" />
+    <ClInclude Include="..\..\mcu\watchdog_i.h" />
+    <ClInclude Include="..\..\os\ev.h" />
+    <ClInclude Include="..\..\os\sys.h" />
+    <ClInclude Include="..\..\os\timer.h" />
+    <ClInclude Include="..\..\simu\aes.h" />
+    <ClInclude Include="..\..\simu\aes_api.h" />
+    <ClInclude Include="..\..\simu\crc_sw.h" />
+    <ClInclude Include="..\..\simu\eth_simu.h" />
+    <ClInclude Include="..\..\simu\keyboard_simu.h" />
+    <ClInclude Include="..\..\simu\mouse_simu.h" />
+    <ClInclude Include="..\..\simu\reg_simu.h" />
+    <ClInclude Include="..\..\simu\socket_api.h" />
+    <ClInclude Include="..\..\simu\socket_test.h" />
+    <ClInclude Include="..\..\simu\uart_simu.h" />
+    <ClInclude Include="..\..\unit_test\ut.h" />
+    <ClInclude Include="..\..\usbstd\HIDClassDevice.h" />
+    <ClInclude Include="..\..\usbstd\stdDescriptors.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\zboss\mac\scan_notes" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51B250EA-4911-44B2-A4CB-4B6764F986DF}</ProjectGuid>
+    <RootNamespace>newArchitecture</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);WIN32</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201;4127;4514;4200;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

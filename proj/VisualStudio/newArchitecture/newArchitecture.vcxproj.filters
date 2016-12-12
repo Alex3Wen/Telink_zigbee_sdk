@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{2f19e385-e009-43f8-8cac-4995f066fee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2996b295-b24f-446b-a665-5d455a66ec11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test">
+      <UniqueIdentifier>{9b420fb4-646f-48fc-b0ce-eae87ea513e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers">
+      <UniqueIdentifier>{f8970168-7f0c-4480-8544-e59a27fe94cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usbstd">
+      <UniqueIdentifier>{581cde5b-21ed-49fa-8de0-23b16ef9debc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simu">
+      <UniqueIdentifier>{48aec362-a49a-4adb-a24b-674e431f8a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{06edecd2-86ed-4354-b120-9f966d58dd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext_drv">
+      <UniqueIdentifier>{78b9728c-f488-47ef-810d-563038e15a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{197d92bf-2abc-45f5-9a90-56e1dbba0308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proj_lib">
+      <UniqueIdentifier>{52f9f2f9-895c-4499-a23d-bb5779643fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{0ee53765-c25b-4bfa-af00-d433b50eb829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\common">
+      <UniqueIdentifier>{4b97ba43-e6d3-4abe-a3ef-3a7952541cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rf">
+      <UniqueIdentifier>{679348f0-bd58-4147-8a60-b1fac145e353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mcu">
+      <UniqueIdentifier>{c3c88a65-7a93-44f6-9e0b-7214bdb996a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simu\aes">
+      <UniqueIdentifier>{a817faae-5340-46a8-86a9-be71a5b10bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss">
+      <UniqueIdentifier>{010be33d-880f-4ad4-b3d8-ab8f4c347f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\common">
+      <UniqueIdentifier>{e695e452-1bb2-4b52-828a-6d5415463deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\include">
+      <UniqueIdentifier>{48a21d4d-0029-4bdf-90d8-68d2e227fa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\mac">
+      <UniqueIdentifier>{50b93250-1ef0-42c5-b200-f0c3610eda8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\nwk">
+      <UniqueIdentifier>{d38330e4-1dc0-4910-a8dd-a2959f40875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\osif">
+      <UniqueIdentifier>{c74cacad-e106-4363-ae47-c67c72de6e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\secur">
+      <UniqueIdentifier>{8fd288b1-8b19-41e7-93cc-bec712168198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zcl">
+      <UniqueIdentifier>{41956a7c-91f9-46b3-ab04-2d40a8655734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zdo">
+      <UniqueIdentifier>{d203bbfb-2a48-4599-8c4d-bafe1c2eb798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\osif\include">
+      <UniqueIdentifier>{4fce23e7-d748-42c3-860b-ddc9d41619b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shareMem">
+      <UniqueIdentifier>{57524214-fb72-430d-b87f-04eba6651a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zbapi">
+      <UniqueIdentifier>{13a32907-75df-4405-9ce2-19aacbe62399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\aps">
+      <UniqueIdentifier>{f57fc610-74cb-4d1a-b5f4-7377a063d183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\otaSample">
+      <UniqueIdentifier>{30421a0d-5ae4-44e1-8448-52ed7cc1a64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zcl\general">
+      <UniqueIdentifier>{1f78bf76-204d-4e62-bcc6-dda3fde700f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\haApp">
+      <UniqueIdentifier>{ce9c6fc1-bc7c-44bd-88df-19e1e34c4790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\ha_gateway">
+      <UniqueIdentifier>{9bab3972-d005-4a77-b8c3-59dc22c415b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\ha">
+      <UniqueIdentifier>{e963aef2-da1b-4919-b4db-23f9c588cdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\common\TH_api">
+      <UniqueIdentifier>{d036c56d-92d0-494d-ae97-f36f63f8e324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zcl\security_safety">
+      <UniqueIdentifier>{a9ad265a-f3d9-4158-9033-aa68f2d80746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zboss\zcl\measument_sensing">
+      <UniqueIdentifier>{450a22d9-07df-47fa-b732-421e8cae6a9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\mempool.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\printf.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\string.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\unit_test\ut.c">
+      <Filter>unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\os\ev.c">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\os\irq_handler.c">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\os\sys.c">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\usbaud.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\usbkb.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\usbmouse.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\socket_test.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\reg_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\eth_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\list.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\mmem.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\rega_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\pairing.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\qsort.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\compatibility.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\mouse_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\app\device_app.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\keyboard_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\adc.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\audio.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\dfifo.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\eth_hw.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\ethernet.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\flash.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\i2c.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\id.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\ip_adapt.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\keyboard.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\mic.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\mouse.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\sbc.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\somatic_sensor.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\spi.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\syshw.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\usb.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\usbdesc.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\usbhw.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\ir.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\common\led_cfg.c">
+      <Filter>vendor\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\common\main.c">
+      <Filter>vendor\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\bufm.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\priority_queue.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\analog.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\anareg.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\audhw.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\clock.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\cpu.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\otp.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\putchar.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\random.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\register.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcu\swire.c">
+      <Filter>mcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\socket_api.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\crc_sw.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\aescrypt.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\aeskey.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\aestab.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\cbc.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\ccm.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\ctr.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\ecb.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes\mmo.c">
+      <Filter>simu\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\aes.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rf\rf.c">
+      <Filter>rf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_address.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_bufpool.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_bufpool_init.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_debug.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_ib.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_init.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_random.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_scheduler.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_scheduler_init.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_time.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\common\zb_trace.c">
+      <Filter>zboss\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_associate.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_common.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_associate.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_coordinator.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_cr_data.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_data.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_disturber.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_fcs.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_routines.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\mac_scan.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\zb_ns3.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\af_descriptor.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\af_rx.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\test_profile.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_app.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_bind_manage.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_channel_manager.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_common.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_disc_cli.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_disc_srv.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_nwk_manage_cli.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_nwk_manage_srv.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zdo\zdo_rx.c">
+      <Filter>zboss\zdo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\aps_secur.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\apsme_secur.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\mac_secur.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\nwk_secur.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\secur_ccm.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\secur\zdo_secur.c">
+      <Filter>zboss\secur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\osif\zb_time_5320.c">
+      <Filter>zboss\osif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_address_assign.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_formation.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_join.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_mesh_routing.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_permit_join.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_route_discovery.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_cr_tree_routing.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_discovery.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_formation.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_join.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_main.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_neighbor.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_nlme.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\nwk\nwk_panid_conflict.c">
+      <Filter>zboss\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rf\mac_host.c">
+      <Filter>rf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\os\timer.c">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\mac\zb_tc32.c">
+      <Filter>zboss\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\zcl.c">
+      <Filter>zboss\zcl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zbapi\zb_api.c">
+      <Filter>zboss\zbapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simu\uart_simu.c">
+      <Filter>simu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drivers\pwm_gpioSim.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_bind.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_commands.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_dups.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_group.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_main.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\aps\aps_nwk_confirm.c">
+      <Filter>zboss\aps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\otaSample\otaSampleApp.c">
+      <Filter>vendor\otaSample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_group.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_identify.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_level.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_onoff.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_scene.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\ha_gateway\haApp.c">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\haApp\haApp.c">
+      <Filter>vendor\haApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\ha\ha.c">
+      <Filter>zboss\ha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\common\TH_api\TH_api.c">
+      <Filter>vendor\common\TH_api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\proj_lib\pm_5320.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\proj_lib\pm_5328.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\ha_gateway\gwCmd.c">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vendor\ha_gateway\nodeMgmt.c">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\security_safety\zcl_ias_zone.c">
+      <Filter>zboss\zcl\security_safety</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\measument_sensing\zcl_illuminance_measurement.c">
+      <Filter>zboss\zcl\measument_sensing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zboss\zcl\general\zcl_power.c">
+      <Filter>zboss\zcl\general</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\assert.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\bit.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\mempool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\printf.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\string.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\utility.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os\timer.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\static_assert.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\unit_test\ut.h">
+      <Filter>unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\user_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os\ev.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ringbuffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os\sys.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\usbstd\stdDescriptors.h">
+      <Filter>usbstd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\usbstd\HIDClassDevice.h">
+      <Filter>usbstd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\usbaud.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\usbkb.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\usbmouse.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\socket_test.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\reg_simu.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\eth_simu.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\mmem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\pairing.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\compatibility.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\mouse_simu.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\app\device_app.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\keyboard_simu.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\default_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\user_config_common.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\user_config_dongle.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\user_config_hisense.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\user_config_remote_changhong.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\proj_lib\airmouse.h">
+      <Filter>proj_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\proj_lib\pm.h">
+      <Filter>proj_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\adc.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\audio.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\dfifo.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\eth_hw.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\eth_hw_i.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\ethernet.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\flash.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\i2c.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\id.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\ip_adapt.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\ip_adapt_i.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\keyboard.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\mouse.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\sbc.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\somatic_sensor.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\spi.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\spi_i.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\syshw.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\usb.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\usbdesc.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\usbhw.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\usbhw_i.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\usbkeycode.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\led.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\default_config.h">
+      <Filter>vendor\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\keyboard_cfg.h">
+      <Filter>vendor\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\keycode_custom.h">
+      <Filter>vendor\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\led_cfg.h">
+      <Filter>vendor\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\user_config.h">
+      <Filter>vendor\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\bufm.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\error.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\priority_queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\analog.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\anareg.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\anareg_i.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\audhw.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\clock.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\clock_i.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\compiler.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\config.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\cpu.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\dma.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\gpio.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\irq.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\irq_i.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\otp.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\pin.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\putchar.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\random.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\register.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\swire.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\watchdog.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mcu\watchdog_i.h">
+      <Filter>mcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\socket_api.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\crc_sw.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\aes.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\aes_api.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\rf\rf_api.h">
+      <Filter>rf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_addr_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_address.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_af_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_aps.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_aps_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_bufpool.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_bufpool_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_common.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_config.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_debug.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_doc_api.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_doc_int.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_errors.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_g_context.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_hash.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_list_macros.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_mac.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_state.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_mac_transport.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_magic_macros.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_ns3.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_neighbor.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_nwk_nib.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_pooled_list.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_ringbuffer.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_scheduler.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_secur.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_secur_api.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_test_profile.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_time.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_trace.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_transport_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_transport_tc32.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_types.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_zcl.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_zcl_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_zdo.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_zdo_globals.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\mac\mac_internal.h">
+      <Filter>zboss\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zdo\zdo_common.h">
+      <Filter>zboss\zdo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_1.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_2.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_3.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_4.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_5.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_6.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_7.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_8.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_9.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_a.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_bank_common.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif_tc32.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_osif_unix.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_serial.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_spi.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\osif\include\zb_tc32_time.h">
+      <Filter>zboss\osif\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\nwk\nwk_internal.h">
+      <Filter>zboss\nwk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\rf\mac_host.h">
+      <Filter>rf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\include\zb_tc32.h">
+      <Filter>zboss\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\zcl.h">
+      <Filter>zboss\zcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zbapi\zb_api.h">
+      <Filter>zboss\zbapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simu\uart_simu.h">
+      <Filter>simu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drivers\pwm_gpioSim.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\aps\aps_internal.h">
+      <Filter>zboss\aps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\otaSample\app_config.h">
+      <Filter>vendor\otaSample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\otaSample\otaSampleApp.h">
+      <Filter>vendor\otaSample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_config.h">
+      <Filter>zboss\zcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_const.h">
+      <Filter>zboss\zcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\zcl_include.h">
+      <Filter>zboss\zcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_group.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_identify.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_level.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_onoff.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_scene.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\ha_gateway\app_config.h">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\ha_gateway\haApp.h">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\haApp\app_config.h">
+      <Filter>vendor\haApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\haApp\haApp.h">
+      <Filter>vendor\haApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\ha\ha.h">
+      <Filter>zboss\ha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\common\TH_api\TH_api.h">
+      <Filter>vendor\common\TH_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\ha_gateway\gwCmd.h">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vendor\ha_gateway\nodeMgmt.h">
+      <Filter>vendor\ha_gateway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\security_safety\zcl_ias_zone.h">
+      <Filter>zboss\zcl\security_safety</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\measument_sensing\zcl_illuminance_measurement.h">
+      <Filter>zboss\zcl\measument_sensing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zboss\zcl\general\zcl_power.h">
+      <Filter>zboss\zcl\general</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\zboss\mac\scan_notes">
+      <Filter>zboss\mac</Filter>
+    </None>
+  </ItemGroup>
+</Project>
